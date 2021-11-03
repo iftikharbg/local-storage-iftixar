@@ -1,0 +1,71 @@
+header #welcome .container .row {
+  padding: 20px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+header #welcome .container .row .col-8 h1 {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header #welcome .container .row .col-8 h1:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+header #welcome .container .row .col-4 .box {
+  display: inline-block;
+  position: relative;
+}
+
+header #welcome .container .row .col-4 .box i {
+  font-size: 50px;
+}
+
+header #welcome .container .row .col-4 .box span {
+  position: absolute;
+  right: 19px;
+  top: 10px;
+  font-size: 20px;
+}
+
+main #products .container .row {
+  margin-top: 40px;
+}
+
+main #products .container .row .col-3 .card {
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 30px;
+}
+
+main #products .container .row .col-3 .card .fa-heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+}
+
+main #products .container .row .col-3 .card .image-box img {
+  max-width: 100%;
+}
+
+main #products .container .row .col-3 .card .text-box {
+  padding: 0 20px;
+}
+
+main #products .container .row .col-3 .card .text-box p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+main #products .container .row .col-3 .card:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
